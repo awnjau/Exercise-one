@@ -58,7 +58,7 @@
          </section>
         <!--Positioning-->
         <section class = "positioning-wrapper">
-            <div class="positioning-interior">
+            <div class="interior positioning-interior">
                 <h1>Positioning Elements</h1>
                 <div class="circle" style="right: 20px; top: 300px" ></div>
                 <div class="circle" style="left: 50px; bottom: 100px" ></div>
@@ -86,19 +86,18 @@
                 <h1>Simple Javascript</h1>
                 <script> 
 
-                let count = 0;
+                let count= 0;
                 function increaseCount(){
 
-                    count = count +1;
+                    count=count +1;
                     const countIndicator=document.querySelector(".count-indicator");
-                    return (countIndicator.innerHTML = count);
+                    return (countIndicator.innerHTML=count);
                 }
 
                 function decreaseCount(){
 
                     count = count -1;
-                    const countIndicator=document.querySelector(".count-indicator");
-                    return (countIndicator.innerHTML = count-1);
+                    return (document.querySelector (".count-indicator").innerHTML = count);
                     }
                 
                 </script>

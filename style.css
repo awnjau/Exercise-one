@@ -117,13 +117,14 @@ header nav a:last-of-type{
 
 .positioning-interior{
 background-color: darkgoldenrod;
-border-color:aqua;
+border-color:black;
 position:relative;
+min-height: 600px;
 }
 
 .circle{
 background-color: lightyellow;
-border:5px solid darkgoldenrod;
+border:5px solid black ;
 border-radius: 50%;
 height: 80px; 
 position: absolute;
@@ -131,7 +132,7 @@ width:80px;
 }
 .square{
 background-color: lightyellow;
-border:5px solid darkgoldenrod;
+border:5px solid black;
 height: 80px; 
 position: absolute; 
 width:80px;
